@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer medallion ring -->
+    <path
+        android:fillColor="#102140"
+        android:strokeColor="#00E5C3"
+        android:strokeWidth="2.4"
+        android:pathData="M54,23 A31,31 0 1,1 53.99,23 Z" />
+    <!-- Outer fingerprint arch -->
+    <path
+        android:strokeColor="#00E5C3"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M34.5,48 A20,21 0 0,1 73.5,48" />
+    <!-- Mid fingerprint arch -->
+    <path
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M39.5,56 A15,16 0 1,1 68.5,52" />
+    <!-- Inner fingerprint arch -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M45,56 A9.5,10.5 0 1,1 63,56" />
+    <!-- Core line -->
+    <path
+        android:strokeColor="#00E5C3"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,48 L54,58" />
+    <!-- Signature pulse wave -->
+    <path
+        android:strokeColor="#F0FDFA"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M36,68 L44,68 L48,61 L54,74 L59,64 L64,68 L72,68" />
+</vector>

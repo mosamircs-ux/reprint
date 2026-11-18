@@ -1,3 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Reprint</string>
+    <string name="app_name" translatable="false">BioPulse</string>
+    <string name="app_subtitle">Biometric &amp; Fingerprint Diagnostics</string>
+    <string name="action_settings">Biometric Settings</string>
+    <string name="action_share">Share Report</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_enroll">Enroll Biometrics</string>
+
+    <string name="scanner_title">Live Sensor Test</string>
+    <string name="scanner_hint_idle">Tap the sensor pad to benchmark biometric verification</string>
+    <string name="scanner_hint_listening">Touch your fingerprint sensor or complete biometric prompt…</string>
+    <string name="scanner_status_ready">READY</string>
+    <string name="scanner_status_listening">LISTENING</string>
+    <string name="scanner_status_verified">VERIFIED</string>
+    <string name="scanner_status_failed">FAILED</string>
+    <string name="scanner_status_cancelled">CANCELLED</string>
+
+    <string name="mode_biometric">Biometric</string>
+    <string name="mode_direct">Direct Sensor</string>
+    <string name="mode_rx">RxStream</string>
+
+    <string name="kpi_scans">Total Scans</string>
+    <string name="kpi_accuracy">Success Rate</string>
+    <string name="kpi_latency">Avg Latency</string>
+
+    <string name="audit_title">Hardware &amp; Security Audit</string>
+    <string name="audit_strong">Strong Biometric (Class 3)</string>
+    <string name="audit_weak">Weak Biometric (Class 2)</string>
+    <string name="audit_credential">Device Credential Lock</string>
+    <string name="audit_legacy_hw">Fingerprint Sensor Hardware</string>
+    <string name="audit_enrolled">Enrolled Fingerprints</string>
+    <string name="audit_device">Device &amp; OS</string>
+    <string name="audit_patch">Security Patch</string>
+
+    <string name="history_title">Recent Scan History</string>
+    <string name="history_empty">No scans yet. Tap the scanner above to run your first biometric benchmark.</string>
+
+    <string name="tips_title">Sensor Accuracy &amp; Care Tips</string>
+    <string name="tips_body">• Keep the optical or ultrasonic sensor surface clean and dry.\n• Register your primary finger twice at slightly different angles to improve recognition speed.\n• Thick tempered glass screen protectors can slow down under-display sensors.\n• After 5 failed attempts, Android temporarily locks biometric sensing for 30 seconds for security.</string>
+
+    <string name="prompt_title">BioPulse Sensor Check</string>
+    <string name="prompt_subtitle">Verify your fingerprint or biometric sensor</string>
+    <string name="prompt_description">Measuring sensor authentication latency and biometric Class 3/2 response.</string>
+    <string name="prompt_negative">Cancel</string>
 </resources>
